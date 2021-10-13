@@ -2,3 +2,7 @@ __pycache__
 flask_env
 flask_env/*
 app/_pycache_
+static/uploads/*
+*.Identifier
+*.ipynb_checkpoints/
+jupyter/*.jpg

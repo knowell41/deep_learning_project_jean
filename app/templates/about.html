@@ -1,12 +1,57 @@
 {% extends "base.html" %}
 
 
-{% block about %}
+
+
+{% block second_grid %}
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <h1 class="w3-margin w3-jumbo">Ringor, James Moses</h1>
+  </div>
+  <div class="w3-content">
+    <img src= {{ url_for('static', filename='about/james.jpg') }} >
+    <p style="font-size:20px">Email: <a href="mailto:mjmringor@tip.edu.ph">mjmringor@tip.edu.ph</a></p>
+  </div>
+  <div class="w3-content">
+    <p style="font-size:20px; text-align:justify"> A licensed Civil Engineer and Master Plumber, with interests in programming,
+      which started from simple functions in excel to VBA codes. Currently studying Professional Science
+      Masters in Data Science in order to further his skills and knowledge, from his Alma Mater, Technological
+      Institute of the Philippines.
+    </p>
+  </div>
+</div>
+
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
-    <div class="w3-twothird">
-      <h1 class="w3-margin w3-jumbo">About</h1>
-    </div>
+    <h1 class="w3-margin w3-jumbo">Pagayonan, Emmanuel</h1>
+  </div>
+  <div class="w3-content">
+    <img src= {{ url_for('static', filename='about/emman.jpg') }} >
+    <p style="font-size:20px">Email: <a href="mailto:mepagayonan@tip.edu.ph">mepagayonan@tip.edu.ph</a></p>
+  </div>
+  <div class="w3-content">
+    <p style="font-size:20px; text-align:justify"> A licensed Electronics Engineer, Software Developer, and Electronics enthusiast.
+      Currently working as a Data Engineer while studying Professional Science Masters in Data Science. He strongly believes that
+      the Data Science field will be the most in-demand in years to come.
+    </p>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <h1 class="w3-margin w3-jumbo">Del Mundo, Alexander</h1>
+  </div>
+  <div class="w3-content">
+    <p style="font-size:20px">Email: <a href="mailto:madelmundo@tip.edu.ph">madelmundo@tip.edu.ph</a></p>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <h1 class="w3-margin w3-jumbo">Salacup, Severino Jr.</h1>
+  </div>
+  <div class="w3-content">
+    <p style="font-size:20px">Email: <a href="mailto:msalacup@tip.edu.ph">msalacup@tip.edu.ph</a></p>
   </div>
 </div>
 {% endblock %}
